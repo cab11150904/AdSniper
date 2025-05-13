@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Ad Sniper",
+  "version": "1.0",
+  "description": "Click on distracting elements to persistently remove them from the page.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png"
+    },
+    "default_title": "Toggle Element Zapper"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d5a0f69f-9c8d-4b1e-8f0a-3c7b6e9d2a1b}"
+    }
+  }
+}
